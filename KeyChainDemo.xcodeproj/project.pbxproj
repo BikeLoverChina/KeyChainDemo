@@ -15,6 +15,7 @@
 		18F8E27E1CB15C0B00897CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8E27C1CB15C0B00897CE4 /* LaunchScreen.storyboard */; };
 		18F8E2891CB15C0B00897CE4 /* KeyChainDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8E2881CB15C0B00897CE4 /* KeyChainDemoTests.m */; };
 		18F8E2941CB15C0B00897CE4 /* KeyChainDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8E2931CB15C0B00897CE4 /* KeyChainDemoUITests.m */; };
+		18F8E2A71CB17B5A00897CE4 /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8E2A61CB17B5A00897CE4 /* JNKeychain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18F8E28F1CB15C0B00897CE4 /* KeyChainDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChainDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F8E2931CB15C0B00897CE4 /* KeyChainDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainDemoUITests.m; sourceTree = "<group>"; };
 		18F8E2951CB15C0B00897CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8E2A51CB17B5A00897CE4 /* JNKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKeychain.h; sourceTree = "<group>"; };
+		18F8E2A61CB17B5A00897CE4 /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKeychain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		18F8E26D1CB15C0B00897CE4 /* KeyChainDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18F8E2A51CB17B5A00897CE4 /* JNKeychain.h */,
+				18F8E2A61CB17B5A00897CE4 /* JNKeychain.m */,
 				18F8E2711CB15C0B00897CE4 /* AppDelegate.h */,
 				18F8E2721CB15C0B00897CE4 /* AppDelegate.m */,
 				18F8E2741CB15C0B00897CE4 /* ViewController.h */,
@@ -276,6 +281,7 @@
 				18F8E2761CB15C0B00897CE4 /* ViewController.m in Sources */,
 				18F8E2731CB15C0B00897CE4 /* AppDelegate.m in Sources */,
 				18F8E2701CB15C0B00897CE4 /* main.m in Sources */,
+				18F8E2A71CB17B5A00897CE4 /* JNKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +505,7 @@
 				18F8E29A1CB15C0B00897CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F8E29B1CB15C0B00897CE4 /* Build configuration list for PBXNativeTarget "KeyChainDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				18F8E29D1CB15C0B00897CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F8E29E1CB15C0B00897CE4 /* Build configuration list for PBXNativeTarget "KeyChainDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				18F8E2A01CB15C0B00897CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
